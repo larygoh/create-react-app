@@ -7,13 +7,14 @@ import Cinthia from './screens/Cinthia';
 
 const router = createBrowserRouter([
   {
-    path: '/Laryssa',
-    element: <Laryssa/>,
-  },
-  {
     path: '/',
     element: <Home/>,
   },
+  {
+    path: '/Laryssa',
+    element: <Laryssa/>,
+  },
+
   {
     path: '/Cinthia',
     element: <Cinthia/>,

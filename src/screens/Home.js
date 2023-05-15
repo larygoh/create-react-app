@@ -5,14 +5,20 @@ export default function Home() {
         <header className='header'>
             <div className="navbar">
                 <svg viewBox='0 0 288 560' width="50px" height="50px" x="0px" y="0px">
-                    <path class="st0" d="M132.64,257.54c0,4.7,0,9.41,0,14.11c0,4.7,0,9.41,0,14.11c5.26-5.1,13.61-4.93,18.4,0
+                    <path className="st0" d="M132.64,257.54c0,4.7,0,9.41,0,14.11c0,4.7,0,9.41,0,14.11c5.26-5.1,13.61-4.93,18.4,0
 	c4.39,4.51,4.77,11.95,0.61,17.18"/>
                 </svg>
 
                 <ul className='navbar-items'>
-                    <li><a href='#'>HOME</a></li>
-                    <li><a href='#'>SOBRE</a></li>
+                    <li><a href='#'>Home</a></li>
+                    <li><a className="dropdown-item" href='#'>Sobre</a>
+                        <ul className="dropdown-menu">
+                            <li><a class="dropdown-item" href="./Cinthia">Cinthia</a></li>
+                            <li><a class="dropdown-item" href="./Laryssa">Laryssa</a></li>
+                        </ul>
+                    </li>
                 </ul>
+                
             </div>
 
             <div className='row'>
